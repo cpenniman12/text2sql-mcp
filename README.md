@@ -6,11 +6,24 @@ The agent explores the schema, writes SQL, executes it against the real DB, and 
 
 ## Install
 
+Out of the box, `text2sql-mcp` supports **SQLite + Anthropic**:
+
 ```bash
 pip install text2sql-mcp
 # or
 uvx text2sql-mcp
 ```
+
+For other databases or LLM providers, install with the matching extra so the right driver gets installed:
+
+| You want… | Install command |
+| --- | --- |
+| SQLite (default) | `uvx text2sql-mcp` |
+| Postgres | `uvx 'text2sql-mcp[postgres]'` |
+| MySQL | `uvx 'text2sql-mcp[mysql]'` |
+| Snowflake | `uvx 'text2sql-mcp[snowflake]'` |
+| BigQuery | `uvx 'text2sql-mcp[bigquery]'` |
+| OpenAI models | add `openai`, e.g. `uvx 'text2sql-mcp[postgres,openai]'` |
 
 ## Configure
 

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "text2sql-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP server for text2sql-framework. Lets any MCP-compatible assistant (Claude Desktop, Cursor, Goose, etc.) ask a SQL database questions in natural language."
 readme = "README.md"
 license = "MIT"

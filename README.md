@@ -1,5 +1,7 @@
 # text2sql-mcp
 
+<!-- mcp-name: io.github.cpenniman12/text2sql-mcp -->
+
 MCP server for [text2sql-framework](https://github.com/cpenniman12/text2sql-framework). Plugs into Claude Desktop, Cursor, Goose, or any other MCP-compatible assistant and lets it ask a SQL database questions in natural language.
 
 The agent explores the schema, writes SQL, executes it against the real DB, and self-corrects on errors — no RAG layer, no schema descriptions, no pre-computed embeddings.

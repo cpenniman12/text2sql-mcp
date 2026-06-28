@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cpenniman12/text2sql-mcp",
   "title": "text2sql",
-  "description": "Frontier models can now make hundreds of iterative tool calls per prompt — so instead of pre-computing which schema elements are relevant, you can hand the LLM one tool (execute_sql) and let it explore the schema, write queries, and self-correct. No RAG, semantic layer, or schema descriptions required — just a connection string and a frontier model. SQLite, Postgres, MySQL, Snowflake, and BigQuery via install extras.",
+  "description": "Ask any SQL database in natural language. Agent explores schema, writes SQL, self-corrects.",
   "repository": {
     "url": "https://github.com/cpenniman12/text2sql-mcp",
     "source": "github"
